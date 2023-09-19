@@ -1,10 +1,15 @@
 import java.util.ArrayList;
 public class myArrayList {
 	
-	ArrayList<Fraction> list = new ArrayList<Fraction>(50);
+	private static int size;
+	
+	public myArrayList(int a) {
+		size = a;
+	}
+	
+	static ArrayList<Fraction> list = new ArrayList<Fraction>(size);
 	
 	public static int indexOf(Fraction input) {
-		
 		return 0;
 	}
 	
